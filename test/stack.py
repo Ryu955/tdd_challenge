@@ -15,3 +15,5 @@ class TestStack(unittest.TestCase):
     def test_push_and_size(self):
         self.stack.push(1)
         self.assertEqual(1, self.stack.size())
+        self.stack.push(2)
+        self.assertEqual(2, self.stack.size())
